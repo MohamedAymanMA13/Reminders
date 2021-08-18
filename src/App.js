@@ -1,6 +1,4 @@
 import React  from "react";
-import { Router, Route } from 'react-router-dom'
-import history from 'redux/_helpers/history'
 import { connect } from 'react-redux'
 import {addReminder,clearAllReminders,deleteReminder,updateReminder} from 'redux/store/actions'
 import { Component } from "react";
